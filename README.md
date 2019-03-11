@@ -11,10 +11,10 @@ Router       Raspberry pi 3           Bluetooth connection           Devices
 1) You'll set the raspberry pi 3 as an hotspot able to share his internet connection thought the bluetooth, you will need also an android (with android version > 4.4 ) phone ,now follow this step starting from a clean install of Raspbian: 
 
 2) write in terminal:
-```sudo update```
-3)[follow this guide](https://github.com/ykasidit/ecodroidlink) with the below configuration
+```sudo update```.
+3)[follow this guide](https://github.com/ykasidit/ecodroidlink) with the below configuration.
 
-4)[follow that now](http://raspberrypi.stackexchange.com/questions/41776/failed-to-connect-to-sdp-server-on-ffffff000000-no-such-file-or-directory)
+4)[follow that now](http://raspberrypi.stackexchange.com/questions/41776/failed-to-connect-to-sdp-server-on-ffffff000000-no-such-file-or-directory).
 
 5)and check if it gives the same parameters of [that](http://www.hkepc.com/forum/viewthread.php?tid=1710030)
 6)use the following interface configuration :
