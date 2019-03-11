@@ -10,14 +10,14 @@ Router       Raspberry pi 3           Bluetooth connection           Devices
 
 1) You'll set the raspberry pi 3 as an hotspot able to share his internet connection thought the bluetooth, you will need also an android (with android version > 4.4 ) phone ,now follow this step starting from a clean install of Raspbian: 
 
-2) write in terminal:
+2) Write in terminal:
 ```sudo update```.
 3) [follow this guide](https://github.com/ykasidit/ecodroidlink) with the below configuration.
 
 4) [follow that now](http://raspberrypi.stackexchange.com/questions/41776/failed-to-connect-to-sdp-server-on-ffffff000000-no-such-file-or-directory).
 
-5) and check if it gives the same parameters of [that](http://www.hkepc.com/forum/viewthread.php?tid=1710030)
-6) use the following interface configuration :
+5) Check if it gives the same parameters of [that](http://www.hkepc.com/forum/viewthread.php?tid=1710030)
+6) Use the following interface configuration :
 ```
 source-directory /etc/network/interfaces.d
 auto lo
@@ -40,11 +40,11 @@ iface wlan1 inet manual
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
  ```
  
-7) in the ecodroidlink configuration use this row:
+7) In the ecodroidlink configuration use this row:
 ```
 /home/pi/ecodroidlink/edl_main --use_existing_bridge br0 &
 ```
-8) write in terminal:
+8) Write in terminal:
 ```sudo apt-get install dnsmasq```
 
 ```sudo nano /etc/dhcpcd.conf``` and add:
@@ -60,8 +60,8 @@ dhcp-range=192.168.1.111,192.168.1.150,12h
 ```
 
 
-9)connect your phone to the bluetooth of the raspberry and now you can surf the internet with your phone using the connection  of the raspberry py 3 without using the wifi.
+9) Connect your phone to the bluetooth of the raspberry and now you can surf the internet with your phone using the connection  of the raspberry py 3 without using the wifi.
 
-10)bluetooth is very slow but it can be helpfull to use it in iot devices becouse it consume less power.
+10) Bluetooth is very slow but it can be helpfull to use it in iot devices becouse it consume less power.
 
 
