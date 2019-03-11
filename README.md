@@ -13,8 +13,10 @@ Router       Raspberry pi 3           Bluetooth connection           Devices
 2) write in terminal:
 ```sudo update```
 3)[follow this guide](https://github.com/ykasidit/ecodroidlink) with the below configuration
-4)[follow that now] (http://raspberrypi.stackexchange.com/questions/41776/failed-to-connect-to-sdp-server-on-ffffff000000-no-such-file-or-directory)
-5)and check if it gives the same parameters of [that] (http://www.hkepc.com/forum/viewthread.php?tid=1710030)
+
+4)[follow that now](http://raspberrypi.stackexchange.com/questions/41776/failed-to-connect-to-sdp-server-on-ffffff000000-no-such-file-or-directory)
+
+5)and check if it gives the same parameters of [that](http://www.hkepc.com/forum/viewthread.php?tid=1710030)
 6)use the following interface configuration :
 ```
 source-directory /etc/network/interfaces.d
