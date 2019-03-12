@@ -29,9 +29,6 @@ address 192.168.1.110
 netmask 255.255.255.0
 gateway 192.168.1.1
 bridge_ports eth0
-#dovrebbe funzionare anche senza questi 3 per ora li tolgo
-#allow-hotplug bnep0
-#iface bnep0 inet dhcp
 allow-hotplug wlan0
 iface wlan0 inet manual
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
