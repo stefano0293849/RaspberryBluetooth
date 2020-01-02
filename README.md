@@ -57,7 +57,7 @@ dhcp-range=192.168.1.111,192.168.1.150,12h
 ```
 
 
-9) Connect your phone to the bluetooth of the raspberry and now you can surf the internet with your phone using the connection  of the raspberry py 3 without using the wifi.
+9) Connect your phone to the bluetooth of the raspberry and now you can surf the internet with your phone using the connection  of the raspberry py 3 without using the wifi but just the bluetooth connection.
 
 10) Bluetooth is very slow but it can be helpfull to use it in iot devices becouse it consume less power.
 
